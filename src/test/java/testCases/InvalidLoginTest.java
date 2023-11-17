@@ -11,8 +11,9 @@ public class InvalidLoginTest extends baseTest {
                             hp.enterUsername(prop.getProperty("invalidUsername"));
                             hp.enterPassword(prop.getProperty("invalidPassword"));
                                                 hp.clickLoginButton();
-                               hp.getLoginButtonContText();
-                                    Thread.sleep(3000);
-                    }
+                                               hp.getLoginButtonContText();
+                                            Thread.sleep(3000);
+                                                            prop.getProperty("invalidText");
+                            }
 
 }
