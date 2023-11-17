@@ -42,10 +42,7 @@
                 public void clickSideMenuButton() {
                     driver.findElement(sideMenuButton).click();
                     }
-        public boolean doesPageContainText(String text) {
-            String pageSource = driver.getPageSource();
-            return pageSource.contains(text);
-            }
+
 
                 }
 
